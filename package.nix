@@ -15,6 +15,6 @@ stdenv.mkDerivation rec {
 
   installPhase = ''
     install -dm 755 $out/share/icons
-    mv miku-cursor-linux $out/share/icons/miku-cursor
+    mv miku-cursor-linux $out/share/icons/miku-cursor-linux
   '';
 }
